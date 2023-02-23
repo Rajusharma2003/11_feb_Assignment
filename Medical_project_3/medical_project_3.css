@@ -1,0 +1,816 @@
+
+/* CSS reset */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: "IBM Plex Sans", sans-serif;
+
+
+
+    /* This is for navbar */
+
+}
+body{
+    background-color: #cfcfcf;
+    
+}
+
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+    
+}
+
+.navbar img{
+padding: 40px;
+
+}
+
+
+.ult-menu{
+    display: none;
+  }
+
+
+.list{
+    display:flex;
+    list-style: none;
+    gap: 50px;
+    margin-right: 400px;
+    margin-top: -30px;
+    
+    
+}
+
+.list a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+    
+}
+.list a:hover{
+    background-color: #20bc7e;
+    padding: 5px 5px ;
+    border-radius: 20px;
+}
+
+
+
+/* This is for hero-section */
+
+.hero-section{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+   gap: 400px;
+    margin-top: 100px;
+   
+}
+
+
+.left-hero-para div{
+    position: absolute;
+    top: 400px;
+}
+
+/* This is for left-button */
+.left-hero-cont button{
+    padding: 20px 50px;
+    border: none;
+    border-radius: 40px;
+    background-color: #20bc7e;
+    margin-top: 20px;
+    font-weight: 700;
+    
+}
+.left-hero-cont button:hover{
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.img1{
+    margin-top: 50px;
+    margin-left: 250px;
+}
+
+
+
+.left-hero-para h1{
+    font-size: 50px;
+
+}
+.left-hero-para p{
+    margin-top: 30px;
+    font-weight: 700;
+    font-size: 1.2rem;
+
+}
+
+
+/* This is for right-section */
+
+.right-hero-section{
+    margin-left: 300px;
+}
+/* greem img */
+.right-hero-section :nth-child(1){
+   position: absolute;
+   right: 0px;
+   bottom: 10px;
+   width: 680px;
+}
+/* orange img */
+.right-hero-section :nth-child(2){
+    position: absolute;
+    right: 1px;
+    bottom: 0px;
+    width: 500px;
+    z-index: -1;
+ }
+
+ /* doctor img */
+ .right-hero-section :nth-child(3){
+    position: absolute;
+    right: 0px;
+    top: 80px;
+    height: 850px;
+    width: 700px;
+    
+ }
+
+
+
+
+ /* This is a details section */
+
+
+ .details-section{
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    background-color: #db8c4c;
+    padding: 90px;
+    margin: 200px 150px 0px 150px;
+    border-radius: 30px;
+ }
+
+ .details-section h1{
+    font-size: 3rem;
+ }
+
+ .details-section p{
+    font-size: 1.1rem;
+ }
+
+ 
+
+ .item-cont{
+    display: flex;
+    gap: 80px;
+    margin-top: 50px;
+
+ }
+ .details-item{
+    background-color: #ffffff;
+    padding: 15px 30px;
+    box-shadow: 0 0 10px black;
+    border-radius: 10px;
+    text-align: center;
+ }
+
+
+
+
+ /* This is for contect page */
+
+
+
+
+
+
+ .contect-form-item{
+   
+    margin: 300px  0px  100px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+ 
+
+ }
+
+
+ form{
+   
+    padding: 50px ;
+    box-shadow: 0 0 10px black;
+    border-radius: 10px
+ }
+
+
+ form h1{
+    padding-bottom: 30px;
+    font-size: 1.7rem;
+ }
+
+ .input{
+  
+     border-radius: 5px;
+     border: none;
+     padding: 5px;
+    
+     
+ }
+
+
+ 
+
+ form button{
+    padding: 3px 62px;
+    background-color: #20bc7e;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px
+    
+  }
+
+  form button:hover{
+    background-color: #db8c4c;
+    cursor: pointer;
+  }
+
+
+
+
+
+
+
+
+
+
+
+  
+
+@media screen  and (max-width : 1400px) {
+
+
+    .list{
+        margin-right: 0;
+    }
+
+
+
+.hero-section{
+
+}
+    
+
+.right-hero-section :nth-child(1){
+    width: 450px;
+    margin-bottom: 200px;
+  
+} 
+
+/* orange */
+ .right-hero-section :nth-child(2){
+    width: 400px;
+    margin-bottom: 170px;
+}
+
+/* Doctor image */
+.right-hero-section :nth-child(3){
+    width: 450px;
+    height: 580px;
+    margin-top: 100px;
+    
+}
+
+
+.hero-cont{
+   margin-right: 450px;
+   
+}
+
+.left-hero-para div  p{
+    width: 700px;
+}
+
+
+.details-section{
+    margin-top: -200px;
+}
+
+}
+
+
+
+
+
+
+@media screen  and (max-width : 1200px) {
+
+
+
+    .list{
+        margin-right: 0;
+    }
+
+   
+
+.hero-section{
+
+}
+    
+
+.right-hero-section :nth-child(1){
+    width: 450px;
+    margin-bottom: 200px;
+  
+} 
+
+/* orange */
+ .right-hero-section :nth-child(2){
+    width: 400px;
+    margin-bottom: 170px;
+}
+
+/* Doctor image */
+.right-hero-section :nth-child(3){
+    width: 450px;
+    height: 580px;
+    margin-top: 100px;
+    
+}
+
+
+.hero-cont{
+   margin-right: 300px;
+   
+}
+
+.left-hero-para div  p{
+    width: 630px;
+}
+
+
+.details-section{
+    margin-top: -200px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen  and (max-width : 1050px) {
+
+    .navbar{
+        display: none;
+    }
+    
+    .ult-menu{
+        display: block;
+        padding: 40px;
+    }
+
+   
+.hero-section{
+
+}
+    
+
+.right-hero-section :nth-child(1){
+    width: 450px;
+    margin-bottom: 200px;
+  
+} 
+
+/* orange */
+ .right-hero-section :nth-child(2){
+    width: 400px;
+    margin-bottom: 170px;
+}
+
+/* Doctor image */
+.right-hero-section :nth-child(3){
+    width: 450px;
+    height: 580px;
+    margin-top: 100px;
+    
+}
+
+
+
+/* This is for hero section */
+.hero-cont{
+   margin-right: 300px;
+   
+}
+
+.left-hero-para div  p{
+    width: 550px;
+}
+.background-image{
+    margin-top: 100px;
+    margin-right: 200px;
+    width: 400px;
+  
+}
+
+.details-section{
+    margin-top: -200px;
+    margin-left: 60px;
+    width: 80vw;
+
+
+}
+
+}
+
+
+
+
+
+
+
+
+
+  
+
+@media screen  and (max-width : 950px) {
+
+    .navbar{
+        display: none;
+    }
+    
+    .ult-menu{
+        display: block;
+        padding: 50px;
+    }
+    
+/* green */
+    .right-hero-section :nth-child(1){
+        width: 600px;
+        margin-bottom: 100px;
+        margin-right: 100px;
+    }
+
+    /* orange */
+    .right-hero-section :nth-child(2){
+        width: 500px;
+        margin-bottom: 110px;
+        margin-right: 100px;
+    }
+
+    /* Doctor */
+    .right-hero-section :nth-child(3){
+        width: 500px;
+        height: 730px;
+        margin-right: 150px;
+        margin-top: 0px;
+    }
+
+
+
+
+       /* This is for container */
+      
+ 
+     .background-image img{
+         width: 400px;
+        
+     }
+ 
+     .left-hero-cont{
+        margin-top: 700px;
+        margin-right: 150px;
+        width: 300px;
+     }
+ 
+ 
+     .left-hero-para div{
+         margin-top: 600px;
+       width: 700px;
+        
+         
+     }
+     .left-hero-para div p{
+        width: 80vw;
+     }
+ 
+     
+ 
+ 
+     .left-hero-para div  img{
+         width: 50px;
+         margin-left: 700px;
+         margin-bottom: -50px;
+     }
+
+     
+
+
+
+
+     
+
+     /* This is for details */
+
+     .details-section{
+        height: 70vh;
+        width: 80vw;
+        margin-top:-200px;
+       
+        position: relative;
+        right: 0px;
+       
+     }
+  
+
+      .item-cont{
+        margin-top: 500px;
+        position: relative;
+        right: 500px;
+
+        display: flex;
+        gap: 100px;
+         
+        
+     }
+
+
+     .details-item{
+        padding: 10px;
+        
+        
+        
+     }
+
+     
+
+}
+
+
+
+
+@media screen  and (max-width : 750px) {
+
+    
+    .navbar{
+        display: none;
+    }
+    
+    .ult-menu{
+        display: block;
+        padding: 20px;
+    }
+    
+/* green */
+    .right-hero-section :nth-child(1){
+        width: 500px;
+        margin-bottom: 100px;
+        margin-right: 30px;
+    }
+
+    /* orange */
+    .right-hero-section :nth-child(2){
+        width: 400px;
+        margin-bottom: 110px;
+        margin-right: 30px;
+    }
+
+    /* Doctor */
+    .right-hero-section :nth-child(3){
+        width: 450px;
+        height: 714px;
+        margin-right: 70px;
+       
+    }
+
+
+
+
+       /* This is for container */
+      
+ 
+     .background-image img{
+         width: 400px;
+        
+     }
+ 
+     .left-hero-cont{
+        margin-top: 700px;
+        margin-left: 350px;
+        width: 300px;
+     }
+ 
+ 
+     .left-hero-para div{
+         margin-top: 600px;
+       width: 700px;
+        
+         
+     }
+     .left-hero-para div p{
+        width: 80vw;
+     }
+ 
+     
+ 
+ /* This is a logo of mouse and orange " L " */
+     .left-hero-para div  img{
+         width: 30px;
+         margin-left: 450px;
+         margin-bottom: -50px;
+     }
+
+     
+
+
+
+
+     
+
+     /* This is for details */
+
+     .details-section{
+        height: 70vh;
+        width: 80vw;
+        margin-top:-200px;
+       
+        position: relative;
+        right: 0px;
+       
+     }
+  
+
+      .item-cont{
+        margin-top: 500px;
+        position: relative;
+        right: 360px;
+
+        display: flex;
+        gap: 20px;
+         
+        
+     }
+
+
+     .details-item{
+        padding: 10px;
+        
+        
+        
+     }
+
+
+
+
+}
+
+
+
+
+
+@media screen  and (max-width : 500px) {
+
+    
+    .navbar{
+        display: none;
+    }
+    
+    .ult-menu{
+        display: block;
+        padding: 20px;
+    }
+    
+/* green */
+    .right-hero-section :nth-child(1){
+        width: 500px;
+        margin-bottom: 100px;
+        margin-right: 0px;
+    }
+
+    /* orange */
+    .right-hero-section :nth-child(2){
+        width: 400px;
+        margin-bottom: 110px;
+        margin-right: 0px;
+    }
+
+    /* Doctor */
+    .right-hero-section :nth-child(3){
+        width: 450px;
+        height: 714px;
+        margin-right: 40px;
+       
+    }
+
+
+
+
+       /* This is for container */
+      
+ 
+     .background-image img{
+         width: 400px;
+        
+     }
+ 
+     .left-hero-cont{
+        margin-top: 700px;
+        margin-left: 350px;
+        width: 300px;
+     }
+ 
+ 
+     .left-hero-para div{
+         margin-top: 600px;
+       width: 700px;
+        
+         
+     }
+     .left-hero-para div p{
+        width: 80vw;
+     }
+ 
+     
+ 
+ /* This is a logo of mouse and orange " L " */
+     .left-hero-para div  img{
+         width: 30px;
+         margin-left: 350px;
+         margin-bottom: -50px;
+     }
+
+     
+
+
+
+
+     
+
+     /* This is for details */
+
+     .details-section{
+        height: 70vh;
+        width: 80vw;
+        margin-top:-200px;
+       
+        position: relative;
+        right: 20px;
+       
+     }
+  
+
+      .item-cont{
+        margin-top: 500px;
+        position: relative;
+        right: 360px;
+
+        display: flex;
+        gap: 20px;
+         
+        
+     }
+
+
+     .details-item{
+        padding: 10px;
+        
+        
+        
+     }
+
+
+
+
+}
+
+
+
+

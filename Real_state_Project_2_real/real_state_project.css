@@ -1,0 +1,435 @@
+/* This is a css reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: "Manrope";
+    color: rgb(255, 255, 255);
+  
+    
+}
+
+
+body{
+    background-image : linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    /* This is a main image */
+    url("https://raw.githubusercontent.com/pwlive/fullstackwebdevelopment/b3e617dcc5341797f3dab8c75755f41e8afc7320/11%20Feb%202023/Real%20Estate/Photos/mainBackground.png");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 120vh;
+position: relative;
+z-index: -100;
+background-color: #dadada;
+
+
+}
+
+/* this is for a header and navbar sections */
+
+header{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+   
+
+}
+header img{
+    font-weight: 900;
+}
+
+.list-item{  
+    list-style: none;  
+}
+
+.nav-list a {
+    text-decoration: none;  
+}
+
+.nav-list a:hover{
+    background-color: #413fdf;
+    padding: 5px 10px;
+    border-radius: 10px;
+  
+    
+}
+
+.nav-list{
+    display: flex;
+    gap: 70px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.line{
+    height: 5px;
+    width: 89vw;
+   background-color: #fff;
+  margin-left: 100px;
+  margin-top: 20px;
+}
+
+
+/* This is for main section */
+.main-section{
+    margin-top: 100px;
+    margin-left: 400px;
+     display: flex;
+     flex-direction: column;
+   gap: 30px;
+   font-weight: 600;
+   height: 100vh;
+}
+.main-section h1{
+    font-size: 5rem;
+}
+
+.btrn1 button{
+   padding: 8px 20px;
+   background-color: #413fdf;
+   border: none;
+   font-weight: 400;
+
+}
+
+/* this is for multipal logo section */
+
+.mulit-logo{
+  
+   
+    background-color: #ffffff;
+    padding: 40px 40px ;
+    letter-spacing: 150px;
+    margin-left:80px;
+    margin-right:80px;
+    border-radius: 20px;
+    position: relative;
+   
+   
+}
+
+
+/* This is for card-sectios */
+
+
+.card-section{
+   
+    position: relative;
+    top: -60px;
+    z-index: -1;  
+}
+
+.card img{
+    width:400px ;
+    height:500px ;
+} 
+
+
+.card-section h1{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 3rem;
+    font-weight: 900;
+   padding-top: 100px;
+   padding-bottom: 50px;
+    
+} 
+
+
+.card-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+   
+}
+
+
+.card-cont{
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 600px 600px 600px;
+}
+
+.card img{
+    border-radius: 10px;
+    box-shadow: 15px 19px #413fdf;
+}
+
+.card-box{
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    position: relative;
+    top: -90px;
+}
+.card-box h3{
+    color: black;
+}
+.card-box p {
+    color: #413fdf;
+}
+
+.card-box button{
+    background-color: #413fdf;
+     padding:2px 20px;
+     border-radius: 10px;
+     border: none;
+}
+
+.card-box {
+   display: flex;
+   justify-content: space-between;
+   
+}
+
+/* uility class */
+
+#img2{
+    margin-top: 50px;
+
+}
+
+#img3{
+    margin-top: 100px;
+}
+
+
+
+/* details section */
+
+
+.details-section{
+    display: flex;
+    margin-top: 250px;
+    
+
+}
+
+.right-section :nth-child(1){
+    height: 600px;
+    width: 600px;
+   
+}
+
+.right-section :nth-child(2){
+    height: 400px;
+    width: 408px;
+    position: absolute;
+    left: 141px;
+    bottom: 190px;
+    border-radius: 40px;
+}
+
+.right-section-details p{
+    color: black;
+    
+    margin-top: -20px;
+    font-weight: 600;
+    
+      
+}
+.right-section-details{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.right-section-details button{
+    
+    background-color: #413fdf;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 15px;
+    margin-top: 20px;
+   
+    font-weight: 600;
+    
+      
+}
+
+
+
+/* this is for left-section */
+
+
+.left-details-section{
+    
+    display: flex;
+    font-weight: 600;
+  
+    margin-top: -60px;
+ 
+}
+
+
+.left-section :nth-child(1){
+
+    height: 430px;
+    width: 450px;
+    position: absolute;
+    right: 145px;
+    border-radius: 40px;
+}
+
+
+.left-section :nth-child(2){
+    height: 600px;
+    width: 650px;
+    margin-left: 500px;
+ 
+}
+
+
+.left-section-details h1 {
+    font-size: 3rem;
+    color: rgb(0, 0, 0);   
+}
+
+
+.left-section-details p {  
+    color: rgb(0, 0, 0);
+  
+}
+
+
+.left-section-details{
+   margin-top: 200px;
+   margin-left: 200px;
+
+     
+}
+
+
+.left-section-details button{
+    
+    background-color: #413fdf;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 15px;
+    margin-top: 20px;
+    
+    font-weight: 600;
+    
+      
+}
+
+
+
+/* this is for footer */
+
+
+
+.footer{
+    margin-top: 200px;
+    margin-left:60px ;
+    margin-right: 60px;
+    text-align: center;
+    background-color: #413fdf;
+    padding-block: 150px;
+    border-radius: 50px;
+   
+   
+}
+
+
+.footer-item h1{
+    font-size: 3rem;
+   
+}
+
+.email{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.email div{
+    background-color: #535151;
+    padding: 12px 40px;
+    border-radius: 30px;
+   
+   
+}
+.email div input{
+    background-color: transparent;
+    border: none;
+    
+   
+}
+
+
+
+.email button{
+    padding: 12px 50px;
+    background-color: #fff;
+    color: black;
+    border-radius: 30px;
+    border: none;
+   
+}
+
+
+
+/* This is for subfooter */
+
+
+
+
+.sub-footer-cont{
+    display: flex;
+    padding: 100px;
+    gap: 300px;
+    margin-top: 200px;
+    
+   
+}
+
+.sub-logo{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+
+.sub-contact li{
+   
+    list-style: none;
+    text-decoration: none;
+    
+}
+
+.sub-contact li a{
+   
+
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+    
+    
+}
+
+.sub-contact h3{
+    font: 1.2rem;
+    color: #ffffff;
+    background-color: #413fdf;
+    padding: 5px;
+    border-radius: 10px;
+    
+}
+
+
+.sub-contact ul{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+
+

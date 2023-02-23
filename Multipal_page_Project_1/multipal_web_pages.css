@@ -1,0 +1,364 @@
+/* CSS reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    overflow: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+body{
+    
+    background-color:  #080808;
+    color: rgb(235, 235, 235);
+}
+
+/* This is for navbar style */
+.navbar{
+    width: 90vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: 200px;
+    cursor: pointer;
+}
+.header-logo{
+    margin-top: -500px;
+    cursor: pointer;
+}
+.headphone-img{
+    margin-top: -10px;
+}
+
+.list{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    margin-top: -250px;
+    font-weight: 500;
+}
+.list a{
+    text-decoration: none;
+    color: rgb(243, 243, 243);
+}
+#butn-1{
+    padding: 10px 40px;
+    margin-left: 50px;
+    margin-top: -10px;
+    border-radius: 5px;
+    font-weight: 600;
+    background-color: #525050;
+    border:none;
+    box-shadow: -1px -1px 3px white;
+    cursor: pointer;
+    
+}
+#butn-1:hover{
+    background-color: #fff;
+    
+}
+
+
+/* Start main-hero-section */
+
+
+.main-right-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -400px;
+    margin-left: 250px;
+    gap: 20px;
+    
+}
+
+.main-right-section h1 {
+    font-size: 3rem;
+    margin-right: 130px;
+
+}
+.main-right-section h4{
+    margin-right: 240px;
+    font-weight: 700;
+}
+.on-ear{
+    margin-left: 350px;
+}
+
+.shoping-bag{
+    display: flex;
+    gap: 15px;
+    padding: 10px 65px;
+    background-color:  #525050;
+}
+.shoping-bag:hover{
+    background-color:  #3d3b3b;
+    cursor: pointer;
+}
+
+
+/* <!-- Conpany- Sections --> */
+
+
+
+#company-section-items{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+   gap: 150px;
+    margin-top: 120px;
+  
+    
+}
+
+
+
+
+/* details-section */
+
+
+
+#specs-img{
+    display: flex;
+    justify-content: center;
+  align-items: center;
+  margin-block: 100px 100px;
+  
+}
+
+.details-section-item-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+
+.details-section-items{
+   display: flex;
+   flex-direction: column;
+   gap: 30px;
+}
+
+#img1{
+    margin-left: 50px;
+}
+
+#img4{
+    margin-left: 50px;
+}
+
+
+
+/* detail-section-2 */
+
+.detail-section-2{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+  
+}
+
+.detail-section-item-cont2{
+    display: flex;
+    gap: 50px;
+   
+}
+
+#details-p1{
+    margin-top: 150px;
+}
+
+#details-p1 :nth-child(2){
+    background-color: #525050;
+   padding: 8px 30px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+#details-p1 :nth-child(2):hover{
+    background-color: #242424;
+    cursor: pointer;
+}
+
+
+
+/* details-section-3 */
+
+
+.detail-section-3{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #525050;
+    padding: 80px 200px ;
+    margin-left: 200px;
+    margin-right: 200px;
+   
+    
+}
+
+.detail-section-item-cont3{
+  font-size: 1.5rem;
+  
+ 
+}
+
+.buy-now{
+    display: flex;
+    background-color: #070707;
+    padding: 8px  30px;
+    gap: 20px;
+    margin-top: 20px;
+    margin-right: 170px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buy-now:hover{
+    background-color: #2a92c5;
+}
+
+
+
+/* This is a big detail-section */
+
+
+ .big-detail-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+
+.big-detail-item{
+    display: grid;
+    grid-template-columns: 200px 200px; 
+    margin-top: 100px;
+    gap: 50px;
+   
+}
+
+
+.product-card {
+    position: relative;
+    width: 140px;
+    height: 130px;
+    background: #2a92c5;
+    border-radius: 8px;
+  }
+
+.product-img{
+    position: absolute;
+    top: -40px;
+    left: 15px;
+    
+   
+    
+}
+
+.product-info{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+
+}
+
+.porduct-info{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+}
+  
+ 
+
+/* Footer section */
+
+footer{
+   padding-left: 100px;
+   padding-right: 20px;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer img{
+    width: 30px;
+    height: 30px;
+}
+
+footer ul li {
+    list-style: none;
+   
+   
+}
+footer ul li h3{
+    padding-bottom: 10px;
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: #fff;
+  
+}
+
+
+
+/* This is subfooter */
+
+
+
+
+.sub-footer-item{
+    width: 20vw;
+    height: 5vh;
+    border-radius: 9px;
+    padding-left: 30px;
+   font-size: small;
+   
+    display: flex;
+    background-color: #525050;
+   
+}
+
+.sub-footer-item input{
+  
+    background-color: #525050;
+    border: none;   
+   
+}
+
+.subscribe-button{
+    display: flex;
+    background-color: #222121;
+    border-radius: 8px;
+    padding: 10px 20px;
+    padding-top: -10px;
+
+}
+.subscribe-button img{
+    height: 20px;
+    width: 20px;
+  
+}
+
+.Socical-media{
+    display: flex;
+    margin-top: 30px;
+    gap: 30px;
+    
+}
+
+
