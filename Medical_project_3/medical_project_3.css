@@ -123,15 +123,15 @@ padding: 40px;
 .right-hero-section :nth-child(1){
    position: absolute;
    right: 0px;
-   bottom: 10px;
-   width: 680px;
+   bottom: 100px;
+   width: 550px;
 }
 /* orange img */
 .right-hero-section :nth-child(2){
     position: absolute;
     right: 1px;
-    bottom: 0px;
-    width: 500px;
+    bottom: 100px;
+    width: 350px;
     z-index: -1;
  }
 
@@ -140,8 +140,8 @@ padding: 40px;
     position: absolute;
     right: 0px;
     top: 80px;
-    height: 850px;
-    width: 700px;
+    height: 800px;
+    width: 650px;
     
  }
 
@@ -167,13 +167,19 @@ padding: 40px;
 
  .details-section h1{
     font-size: 3rem;
+
  }
 
  .details-section p{
     font-size: 1.1rem;
  }
+ .left-hero-para {
+    margin-left: 60px;
 
- 
+}
+.left-hero-cont, img{
+    margin-left: 20px;
+}
 
  .item-cont{
     display: flex;
@@ -267,46 +273,41 @@ padding: 40px;
 
 @media screen  and (max-width : 1400px) {
 
-
-    .list{
-        margin-right: 0;
-    }
-
-
-
-.hero-section{
-
-}
-    
-
+    /* green */
 .right-hero-section :nth-child(1){
-    width: 450px;
-    margin-bottom: 200px;
-  
+    width: 500px;
+    margin-bottom: 100px;
 } 
 
 /* orange */
  .right-hero-section :nth-child(2){
     width: 400px;
-    margin-bottom: 170px;
+    margin-bottom: 90px;
 }
 
 /* Doctor image */
 .right-hero-section :nth-child(3){
-    width: 450px;
-    height: 580px;
-    margin-top: 100px;
+    width: 500px;
+    height: 650px;
+    margin-top: 20px;
     
 }
 
 
 .hero-cont{
-   margin-right: 450px;
+   margin-right: 500px;
+  
+   
+}
+.left-hero-para h1{
+    margin-top: -100px;
+ 
+  
    
 }
 
 .left-hero-para div  p{
-    width: 700px;
+    width: 620px;
 }
 
 
@@ -317,16 +318,13 @@ padding: 40px;
 }
 
 
-
-
-
-
-@media screen  and (max-width : 1200px) {
+@media screen  and (max-width : 1250px) {
 
 
 
     .list{
-        margin-right: 0;
+        position: relative;
+        left: 200px;
     }
 
    
@@ -334,59 +332,43 @@ padding: 40px;
 .hero-section{
 
 }
+    /* green */
+    .right-hero-section :nth-child(1){
+        width: 450px;
     
-
-.right-hero-section :nth-child(1){
-    width: 450px;
-    margin-bottom: 200px;
-  
-} 
-
-/* orange */
- .right-hero-section :nth-child(2){
-    width: 400px;
-    margin-bottom: 170px;
-}
-
-/* Doctor image */
-.right-hero-section :nth-child(3){
-    width: 450px;
-    height: 580px;
-    margin-top: 100px;
+    } 
     
-}
+    /* orange */
+     .right-hero-section :nth-child(2){
+        width: 400px;
+        margin-bottom: 100px;
+    }
+    
+    /* Doctor image */
+    .right-hero-section :nth-child(3){
+        width: 450px;
+        height: 600px;
+        margin-top: 50px;
+        
+    }
+    
 
 
 .hero-cont{
-   margin-right: 300px;
+   margin-right: 420px;
    
 }
 
+
 .left-hero-para div  p{
-    width: 630px;
+    width: 570px;
 }
 
-
-.details-section{
-    margin-top: -200px;
-}
 
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-@media screen  and (max-width : 1050px) {
+@media screen  and  (  max-width : 1050px)  {
 
     .navbar{
         display: none;
@@ -405,14 +387,14 @@ padding: 40px;
 
 .right-hero-section :nth-child(1){
     width: 450px;
-    margin-bottom: 200px;
+    margin-bottom: 80px;
   
 } 
 
 /* orange */
  .right-hero-section :nth-child(2){
     width: 400px;
-    margin-bottom: 170px;
+    margin-bottom: 80px;
 }
 
 /* Doctor image */
@@ -453,14 +435,6 @@ padding: 40px;
 
 
 
-
-
-
-
-
-
-  
-
 @media screen  and (max-width : 950px) {
 
     .navbar{
@@ -474,24 +448,23 @@ padding: 40px;
     
 /* green */
     .right-hero-section :nth-child(1){
-        width: 600px;
-        margin-bottom: 100px;
+        width: 550px;
         margin-right: 100px;
     }
 
     /* orange */
     .right-hero-section :nth-child(2){
         width: 500px;
-        margin-bottom: 110px;
         margin-right: 100px;
     }
 
     /* Doctor */
     .right-hero-section :nth-child(3){
         width: 500px;
-        height: 730px;
+        height: 680px;
         margin-right: 150px;
-        margin-top: 0px;
+      margin-top: -20px;
+        
     }
 
 
@@ -501,20 +474,21 @@ padding: 40px;
       
  
      .background-image img{
-         width: 400px;
+         width: 500px;
         
      }
  
      .left-hero-cont{
-        margin-top: 700px;
-        margin-right: 150px;
-        width: 300px;
+        margin-top: 550px;
+        margin-left: 150px;
+        
+       
      }
  
  
      .left-hero-para div{
          margin-top: 600px;
-       width: 700px;
+       width: 600px;
         
          
      }
@@ -522,39 +496,32 @@ padding: 40px;
         width: 80vw;
      }
  
-     
- 
- 
-     .left-hero-para div  img{
+
+ /* This is for mouse and yellow "L" */
+     .left-hero-para div img{
          width: 50px;
-         margin-left: 700px;
-         margin-bottom: -50px;
+         margin-left: 600px;
+         margin-bottom: -60px;
      }
 
-     
 
-
-
-
-     
 
      /* This is for details */
 
      .details-section{
         height: 70vh;
-        width: 80vw;
-        margin-top:-200px;
-       
+        width: 90vw;
         position: relative;
-        right: 0px;
+        right: 20px;
+        
        
      }
   
 
       .item-cont{
-        margin-top: 500px;
+        margin-top: 400px;
         position: relative;
-        right: 500px;
+        right: 560px;
 
         display: flex;
         gap: 100px;
@@ -591,23 +558,23 @@ padding: 40px;
     
 /* green */
     .right-hero-section :nth-child(1){
-        width: 500px;
+        width: 450px;
         margin-bottom: 100px;
-        margin-right: 30px;
+        margin-right: 20px;
     }
 
     /* orange */
     .right-hero-section :nth-child(2){
         width: 400px;
-        margin-bottom: 110px;
-        margin-right: 30px;
+        margin-bottom: 100px;
+        margin-right: 20px;
     }
 
     /* Doctor */
     .right-hero-section :nth-child(3){
         width: 450px;
-        height: 714px;
-        margin-right: 70px;
+        height: 660px;
+        margin-right: 60px;
        
     }
 
@@ -619,131 +586,13 @@ padding: 40px;
  
      .background-image img{
          width: 400px;
+         margin-top: -200px;
         
      }
  
      .left-hero-cont{
         margin-top: 700px;
-        margin-left: 350px;
-        width: 300px;
-     }
- 
- 
-     .left-hero-para div{
-         margin-top: 600px;
-       width: 700px;
-        
-         
-     }
-     .left-hero-para div p{
-        width: 80vw;
-     }
- 
-     
- 
- /* This is a logo of mouse and orange " L " */
-     .left-hero-para div  img{
-         width: 30px;
-         margin-left: 450px;
-         margin-bottom: -50px;
-     }
-
-     
-
-
-
-
-     
-
-     /* This is for details */
-
-     .details-section{
-        height: 70vh;
-        width: 80vw;
-        margin-top:-200px;
-       
-        position: relative;
-        right: 0px;
-       
-     }
-  
-
-      .item-cont{
-        margin-top: 500px;
-        position: relative;
-        right: 360px;
-
-        display: flex;
-        gap: 20px;
-         
-        
-     }
-
-
-     .details-item{
-        padding: 10px;
-        
-        
-        
-     }
-
-
-
-
-}
-
-
-
-
-
-@media screen  and (max-width : 500px) {
-
-    
-    .navbar{
-        display: none;
-    }
-    
-    .ult-menu{
-        display: block;
-        padding: 20px;
-    }
-    
-/* green */
-    .right-hero-section :nth-child(1){
-        width: 500px;
-        margin-bottom: 100px;
-        margin-right: 0px;
-    }
-
-    /* orange */
-    .right-hero-section :nth-child(2){
-        width: 400px;
-        margin-bottom: 110px;
-        margin-right: 0px;
-    }
-
-    /* Doctor */
-    .right-hero-section :nth-child(3){
-        width: 450px;
-        height: 714px;
-        margin-right: 40px;
-       
-    }
-
-
-
-
-       /* This is for container */
-      
- 
-     .background-image img{
-         width: 400px;
-        
-     }
- 
-     .left-hero-cont{
-        margin-top: 700px;
-        margin-left: 350px;
+        margin-right: 10px;
         width: 300px;
      }
  
@@ -767,22 +616,130 @@ padding: 40px;
          margin-bottom: -50px;
      }
 
+     /* This is for details */
+
+     .details-section{
+        height: 80vh;
+        width: 90vw;
+        position: relative;
+        right: 40px;
+       
+     }
+  
+
+      .item-cont{
+        margin-top: 500px;
+        position: relative;
+        right: 400px;
+
+        display: flex;
+        gap: 60px;
+         
+        
+     }
+
+
+     .details-item{
+        padding: 10px;
+        
+        
+        
+     }
+
+
+
+
+}
+
+
+
+
+
+@media screen  and (max-width : 550px) {
+
+    
+    .navbar{
+        display: none;
+    }
+    
+    .ult-menu{
+        display: block;
+        padding: 20px;
+    }
+    
+/* green */
+    .right-hero-section :nth-child(1){
+        width: 400px;
+        margin-bottom: 100px;
+        margin-right: 20px;
+    }
+
+    /* orange */
+    .right-hero-section :nth-child(2){
+        width: 300px;
+        margin-bottom: 110px;
+        margin-right : 10px;
+    }
+
+    /* Doctor */
+    .right-hero-section :nth-child(3){
+        width: 450px;
+        height: 524px;
+        margin-right: 10px;
+        margin-top: 50px;
+       
+    }
+
+
+
+
+       /* This is for container */
+      
+ 
+     .left-hero-cont{
+        margin-top: 700px;
+      margin-left: 170px;
+      
+       
+     }
      
-
-
-
-
+     .background-image img{
+        width: 400px;
+        margin-top: -200px;
+       
+    }
+ 
+ 
+     .left-hero-para div{
+         margin-top: 600px;
+       width: 300px;
+        
+         
+     }
+     .left-hero-para div p{
+        width: 80vw;
+     }
+ 
      
+ 
+ /* This is a logo of mouse and orange " L " */
+     .left-hero-para div  img{
+         width: 30px;
+         margin-left: 350px;
+         margin-bottom: -50px;
+     }
+
+   
 
      /* This is for details */
 
      .details-section{
-        height: 70vh;
-        width: 80vw;
-        margin-top:-200px;
+        height: 80vh;
+        width: 90vw;
+       
        
         position: relative;
-        right: 20px;
+        right: 45px;
        
      }
   
